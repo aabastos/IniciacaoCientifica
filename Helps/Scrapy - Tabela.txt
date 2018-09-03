@@ -1,0 +1,26 @@
+Primeiro pegamos a tabela:
+	table = response.xpath('//*[@class="datatable noborder"]//tbody')
+
+	Observação que os dados estão na tag <tbody>. Com isso, ela foi especificada.
+
+Após, temos que pegar as linhas (tag <tr>):
+	rows = table.xpath('tr')
+
+Pegamos uma linha para análise dos resultados
+	row = rows[0]
+
+Analisando a linha, escolhemos a coluna (tag <td>) onde se encontra os dados. Escolhida a 
+coluna, pegamos o texto dela:
+	row.xpath('td//text()')[2].extract()
+
+
+
+
+for row in response.xpath('//*[@class="datatable noborder"]//tbody//tr'):
+    name = row.xpath('td//h3//a//text()')[0].extract()
+    salary = row.xpath('td//span//text()')[1].extract()
+    print(name, salary)
+
+
+
+
