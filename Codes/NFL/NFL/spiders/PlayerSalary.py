@@ -17,17 +17,18 @@ class PlayersalarySpider(scrapy.Spider):
         for i in range(1991, 2018):
             for j in range(35):
                 send = url[0] + str(i) + '/' + teams[j]
-                yield scrapy.Request(url = send, meta={'handle_http_status_list': [301]}, callback = self.parse)
+
+                yield scrapy.Request(url = send, meta={'team' : teams[j], 'handle_http_status_list': [301]}, callback = self.parse)
 
     def parse(self, response):
-        # global year
         i = 0
         for row in response.xpath('//*[@class="datatable noborder"]//tbody//tr'):
             year = str(row.xpath('//*[@class="team-header"]//h2//text()').extract())
             yield{
                 'year' : year[2:6],
                 'name' : row.xpath('td//h3//a//text()')[0].extract(),
-                'salary' : row.xpath('//*[@class="info"]//text()')[i].extract()
+                'salary' : row.xpath('//*[@class="info"]//text()')[i].extract(),
+                'team' : response.meta['team']
             }
 
             i += 1
