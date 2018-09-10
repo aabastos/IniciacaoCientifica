@@ -18,7 +18,7 @@ class PlayersalarySpider(scrapy.Spider):
             for j in range(35):
                 send = url[0] + str(i) + '/' + teams[j]
 
-                yield scrapy.Request(url = send, meta={'team' : teams[j], 'handle_http_status_list': [301]}, callback = self.parse)
+                yield scrapy.Request(url = send, meta={'team' : teams[j]}, callback = self.parse)
 
     def parse(self, response):
         i = 0
