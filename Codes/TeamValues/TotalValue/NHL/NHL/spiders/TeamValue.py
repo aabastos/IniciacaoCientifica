@@ -18,7 +18,7 @@ class PlayersalarySpider(scrapy.Spider):
 
     def parse(self, response):
         i = 0
-        row = response.xpath('//*[@class="value"]')
+        row = response.xpath('//*[@class="playerExp"]')
         yield{
             'name' : response.meta['team'],
             'value' : row.xpath('text()').extract()
