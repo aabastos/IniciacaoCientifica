@@ -1,0 +1,2 @@
+Hipoteses:
+	Para que seja definida as melhores técnicas para coleta de dados, será feita pesquisas de como essas coletas são feitas e de como ferramentas utilizadas para tais processos são utilizadas. Com uma boa base teórica, será possível escolher as melhores ferramentas para que sejam realizados testes para, assim, determinar aquela que é a mais eficiente.

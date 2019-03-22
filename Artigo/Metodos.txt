@@ -1,0 +1,34 @@
+Um dos métodos utilizados para a coleta de dados foi os crawlers. Crawling é um processo de exploração de aplicações Web com fins em buscar informações dentro de uma página escolhida de uma forma automática.
+
+(maior explicação do que é crawling)
+
+
+Como ferramenta para fazer o crawling de uma página, foi utilizado o Scrapy. O Scrapy é um framework para a realização de Web Crawling de sites e para a retirada de dados, podendo ser utilizado em mineração de dados, processamento de informações, etc.
+
+(maior explicação do scrapy)
+
+Foram coletados dados das 4 principais ligas americanas esportivas:
+	* NFL
+	* NBA
+	* MLB
+	* NHL
+
+Os dados coletados foram separados nessas categorias:
+	* Salario de jogadores
+	* Desempenho de jogadores
+	* Valores dos times
+	* Gasto dos times com jogadores
+
+- Salario de jogadores
+	--> Scrapy (Spotrac)
+
+- Desempenho de jogadores
+	--> Dados coletados sports-reference.com
+
+- Valores dos times
+	--> Scrapy (Forbes)
+
+- Gasto dos times com jogadores
+	--> Scrapy (Forbes)
+
+teste

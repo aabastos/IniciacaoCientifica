@@ -1,0 +1,3 @@
+Tema: Algoritmos para aquisição e filtragem de dados da web para fins analíticos na área esportiva.
+
+	O trabalho tem como objetivo apresentar técnicas e ferramentas para a obtenção de dados presentes dentro de aplicações webs. Uma das principais ferramentas utilizadas para a coleta de dados são os chamados Crawlers (conhecidos também como Spiders ou Bots). Será feito uma comparação entre diferentes Crawlers para que seja estabelecida a ferramenta mais eficiente.
