@@ -30,5 +30,3 @@ Os dados coletados foram separados nessas categorias:
 
 - Gasto dos times com jogadores
 	--> Scrapy (Forbes)
-
-teste
