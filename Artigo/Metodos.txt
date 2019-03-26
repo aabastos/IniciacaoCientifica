@@ -3,8 +3,7 @@ Um dos métodos utilizados para a coleta de dados foi os crawlers. Crawling é u
 (maior explicação do que é crawling)
 
 
-Como ferramenta para fazer o crawling de uma página, foi utilizado o Scrapy. O Scrapy é um framework para a realização de Web Crawling de sites e para a retirada de dados,
- podendo ser utilizado em mineração de dados, processamento de informações, etc.
+Como ferramenta para fazer o crawling de uma página, foi utilizado o Scrapy. O Scrapy é um framework para a realização de Web Crawling de sites e para a retirada de dados, podendo ser utilizado em mineração de dados, processamento de informações, etc.
 
 (maior explicação do scrapy)
 
