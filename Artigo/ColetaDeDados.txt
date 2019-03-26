@@ -1,6 +1,9 @@
 Abstract:
 
-Crawling é um processo de exploração de aplicações Web com fins em buscar informações dentro de uma página escolhida de uma forma automática. Uma das técnicas possibilitadas pelo uso de um crawler, juntamente com a utilização de Web Scraping é a mineração de dados. Esse artigo tem como objetivo mostrar como foi feito a coleta dos salários de jogadores das principais ligas esportivas americanas utilizando as técnicas de web crawling e web scraping.
+Crawling é um processo de exploração de aplicações Web com fins em buscar informações dentro de uma página escolhida de uma forma
+automática. Uma das técnicas possibilitadas pelo uso de um crawler, juntamente com a utilização de Web Scraping é a mineração de
+dados. Esse artigo tem como objetivo mostrar como foi feito a coleta dos salários de jogadores das principais ligas esportivas americanas
+utilizando as técnicas de web crawling e web scraping.
 
 
 
@@ -10,26 +13,32 @@ Crawling é um processo de exploração de aplicações Web com fins em buscar i
 
 Introdução:
 
-O esporte é uma das partes mais importantes dentro das cultura dos Estados Unidos. A prática do esporte  incentivada desde a escola. Bolsas de estudos são oferecidas em universidades para aqueles que possuem um bom desempenho dentro de alguma modalidade. Com isso, não é atoa que as ligas esportivas americanas são bastante visadas em todo o mundo e é uma das indústrias esportivas mais potentes do mundo. Somente a NFL consegue movimentar bilhões de dólares anualmente através de licensas, patrocínios, propagandas e vendas de produtos (1).
+O esporte é uma das partes mais importantes dentro das cultura dos Estados Unidos. A prática do esporte  incentivada desde a escola. Bolsas de
+estudos são oferecidas em universidades para aqueles que possuem um bom desempenho dentro de alguma modalidade. Com isso, não é atoa que as
+ligas esportivas americanas são bastante visadas em todo o mundo e é uma das indústrias esportivas mais potentes do mundo. Somente a NFL consegue
+movimentar bilhões de dólares anualmente através de licensas, patrocínios, propagandas e vendas de produtos (1).
 
-Com toda essa visibilidade dentro das ligas americanas, estudos probabilísticos são utilizados a fins de serem realizadas previsões dentro do esporte. Um dos métodos usados para a realização de tais estudos é a análise do quão impactante pode ser o valor do salário dos jogadores em seus desempenhos. Para que tais estudos sejam feitos, é preciso que seja realizada a coleta dos dados necessários para o estudo.
+Com toda essa visibilidade dentro das ligas americanas, estudos probabilísticos são utilizados a fins de serem realizadas previsões dentro do esporte.
+Um dos métodos usados para a realização de tais estudos é a análise do quão impactante pode ser o valor do salário dos jogadores em seus desempenhos.
+Para que tais estudos sejam feitos, é preciso que seja realizada a coleta dos dados necessários para o estudo.
 
-Para a coleta dos dados, foi utilizado a ferramenta Scrapy. O Scrapy é um framework para a realização de Web Crawling de sites e para a retirada de dados, podendo ser utilizado em mineração de dados, processamento de informações, etc.
+Para a coleta dos dados, foi utilizado a ferramenta Scrapy. O Scrapy é um framework para a realização de Web Crawling de sites e para a retirada de
+dados, podendo ser utilizado em mineração de dados, processamento de informações, etc.
 
 Foram retirado os dados das seguintes ligas esportivas:
 
 \begin{itemize}
     \item NBA (National Basketball Association): Principal liga profissional de basquetebol da América do Norte.
-    
+
     \item NFL (National Football League): Principal liga profissional de futebol americano dos Estados Unidos.
-    
+
     \item MLB (Major League Baseball): Principal liga profissional de beisebol dos Estados Unidos.
-    
+
     \item NHL (National Hockey League): Principal liga profissional de hóquei no gelo da América do Norte.
-    
+
 \end{itemize}
 
-Para todas as ligas, os dados foram retirados do site Spotrac(2). 
+Para todas as ligas, os dados foram retirados do site Spotrac(2).
 
 
 
@@ -56,11 +65,5 @@ Crawler:
 
 
 
-O Scrapy é um framework para a realização de Web Crawling de sites e para a retirada de dados, podendo ser utilizado em mineração de dados, processamento de informações, etc.
-
-
-
-
-
-
-
+O Scrapy é um framework para a realização de Web Crawling de sites e para a retirada de dados, podendo ser utilizado em mineração de dados, processamento
+de informações, etc.

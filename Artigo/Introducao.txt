@@ -1,7 +1,21 @@
-	A coleta de dados é uma técnica importante em diversas áreas dentro da computação. É através das coletas que é obtido os dados para que seja realizado algum trabalho, podendo esse, ser algum trabalho estatístico, analítico, entre outros. 
-	Predição é uma técnica que é utilizada em diversos ramos. Dentre eles está um bastante complexo que é a área esportiva. De acordo com Blastland e Dilnot, citado por Aoky, Assunção e Melo (2017, p.01), metade dos times favoritos pelos apostadores no futebol, 60% no baseball e 70% no futebol americano ganham as partidas. A área esportiva é uma das mais complexas de serem feitas previsões pelo fato de existirem inúmeros fatores que podem alterar o resultado de uma partida, o desempenho de um jogador, etc. Fatores externos que são difíceis de serem previstos podem alterar diretamente o rumo de um jogo. Dentre eles, está, por exemplo, a sorte. Tendo essa dificuldade em vista, é importante ter um grande volume de dados para que tal previsão seja feita de maneira mais eficiente.
-	Com isso, é perceptível que a coleta desses dados é imprescindível para o desenvolvimento desse trabalho. Tais informações são aquelas que podem informar sobre o desempenho de um time e de um jogador, como, por exemplo, o salário dos jogadores (será que um jogador que ganha mais apresenta um melhor desempenho que os outros). Além disso, informações estatísticas são muito importantes também, como o desempenho médio de um time ou de um jogador nos campeonatos de anos anteriores.
-	Essas informações estão, geralmente, disponíveis em páginas Web porém, em um formato onde não é efetivo a realização de um trabalho analítico em cima desses dados. Assim, é requisitado que seja feito uma coleta desses dados e que ele sejam tratados para que fiquem em um formato eficiente de serem analisados.
+	A coleta de dados é uma técnica importante em diversas áreas dentro da computação. É através das coletas que é obtido os dados para
+	que seja realizado algum trabalho, podendo esse, ser algum trabalho estatístico, analítico, entre outros.
+
+	Predição é uma técnica que é utilizada em diversos ramos. Dentre eles está um bastante complexo que é a área esportiva. De acordo com
+	Blastland e Dilnot, citado por Aoky, Assunção e Melo (2017, p.01), metade dos times favoritos pelos apostadores no futebol, 60% no baseball
+	e 70% no futebol americano ganham as partidas. A área esportiva é uma das mais complexas de serem feitas previsões pelo fato de existirem
+	inúmeros fatores que podem alterar o resultado de uma partida, o desempenho de um jogador, etc. Fatores externos que são difíceis de
+	serem previstos podem alterar diretamente o rumo de um jogo. Dentre eles, está, por exemplo, a sorte. Tendo essa dificuldade em vista, é
+	importante ter um grande volume de dados para que tal previsão seja feita de maneira mais eficiente.
+
+	Com isso, é perceptível que a coleta desses dados é imprescindível para o desenvolvimento desse trabalho. Tais informações são aquelas que
+	podem informar sobre o desempenho de um time e de um jogador, como, por exemplo, o salário dos jogadores (será que um jogador que ganha
+	mais apresenta um melhor desempenho que os outros). Além disso, informações estatísticas são muito importantes também, como o desempenho
+	médio de um time ou de um jogador nos campeonatos de anos anteriores.
+	
+	Essas informações estão, geralmente, disponíveis em páginas Web porém, em um formato onde não é efetivo a realização de um trabalho analítico
+	em cima desses dados. Assim, é requisitado que seja feito uma coleta desses dados e que ele sejam tratados para que fiquem em um formato
+	eficiente de serem analisados.
 
 
 
